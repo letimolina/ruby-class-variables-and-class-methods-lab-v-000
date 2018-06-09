@@ -29,6 +29,7 @@ class Song
     genres_hash.tap {|hash| @@genres.each {|genre| hash[genre] +=1}}
   end
   
+  def self.artist_count
 end
   
     
